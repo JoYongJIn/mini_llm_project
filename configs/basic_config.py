@@ -2,4 +2,4 @@
 
 seq_len = 8
 d_model = 64
-epochs = 1000
+epochs = 400

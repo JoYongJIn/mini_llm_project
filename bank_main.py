@@ -9,7 +9,7 @@ from utils.basic_generate import chat # generate도 불러와서 사용
 from configs.basic_config import seq_len, d_model, epochs # error가 뜨는 경우 보통 스펠링을 틀린경우가 많으니 확인해보자
 
 # 데이터 불러오기
-file_path = os.path.join("data", "bank_service.txt") # 이 부분을 손보면 다른 데이터로도 학습시킬수있다.
+file_path = os.path.join("data", "bank_service_1.txt") # 이 부분을 손보면 다른 데이터로도 학습시킬수있다.
 with open(file_path, "r", encoding="utf-8") as f:
     text = f.read()
 
